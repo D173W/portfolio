@@ -1,0 +1,149 @@
+/*media query x responsive*/
+@media (max-width: 900px) {
+  main {
+    display: flex;
+    flex-direction: col;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #izq {
+    margin-bottom: 10%;
+  }
+
+}
+
+/*Quiero trabajar en porcentajes asi lo hago de una*/
+
+/*Le quito bordes a la web*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/*hago de 2 hileras el main y ajusto su tamaño*/
+main {
+  margin: 3%;
+  margin-top: 3%;
+  display: flex;
+}
+#izq {
+  width: 55%;
+}
+
+/*ajusto el tamaño de los textos*/
+h1, p, a {
+  font-size: 130%;
+}
+
+.separador {
+  font-size: 100%;
+}
+
+/*Colores de Fondo*/
+nav {
+  background-color: #353535;
+}
+html {
+  background-color: #0F0F0F;
+}
+
+/*Color y Fuente de Texto */
+h1 {
+  color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+p {
+  color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+a {
+  color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+/*detalle parpadeo*/
+.parpadea {
+  color: #FFFFFF;
+  animation-name: parpadea;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(1, end);;
+}
+
+@keyframes parpadea {
+  0% {
+    color: #FFFFFF;
+  }
+  50% {
+    color: #0F0F0F;
+  }
+  
+}
+/*Haciendo que la nav_bar sea una linea*/
+nav {
+  /*se queda arriba y ocupa el 100 de ancho*/
+  position: fixed;
+  top: 0;
+  width: 100%;
+  /*los elementos h1 van in-a-row*/
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /*tamaño*/
+  height: 50px;
+}
+
+nav a {
+  font-size: 140%;
+  text-decoration: 0;
+}
+
+#nav_home {
+  padding-left: 1%;
+}
+
+#verde {
+  color: #42C920;
+
+}
+/*dando distancia entre los elementos del nav*/
+#nav_proyects {
+  margin-left: 65%;
+  padding-right: 03%;
+}
+
+/*Dandole margenes a las secciones y a los textos*/
+section {
+  margin-top: 7%;
+  margin-bottom: 3%;
+}
+
+section h1 {
+  color: #42C920;
+}
+
+h1 {
+  padding-bottom: 1%;
+}
+
+li {
+  padding-bottom: 1%;
+}
+
+
+#mail {
+  color: grey;
+  padding-left: 3%;
+}
+
+/*separadores*/
+.separador {
+  font-family: monospace;
+  white-space: pre;
+}
