@@ -1,16 +1,28 @@
+
+
 /*media query x responsive*/
 @media (max-width: 900px) {
   main {
+    padding-top: 15%;
     display: flex;
     flex-direction: col;
     flex-wrap: wrap;
     justify-content: center;
   }
+
+
+
   #izq {
     margin-bottom: 10%;
   }
+  #der {
+    text-align: center;
+    font-size: 60%;
+    width: 60%;
+  }
 
 }
+
 
 /*Quiero trabajar en porcentajes asi lo hago de una*/
 
@@ -132,22 +144,21 @@ h1 {
   padding-bottom: 1%;
 }
 
-ul {
-    list-style: none;
-}
-
 li {
   padding-bottom: 1%;
 }
 
+#codepen {
+  padding-right: 2%;
+}
 
 #mail {
   color: grey;
-  padding-left: 3%;
 }
 
 /*separadores*/
 .separador {
+  padding-top: 5%;
   font-family: monospace;
   white-space: pre;
 }
