@@ -132,6 +132,10 @@ h1 {
   padding-bottom: 1%;
 }
 
+ul {
+    list-style: none;
+}
+
 li {
   padding-bottom: 1%;
 }
