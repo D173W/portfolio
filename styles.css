@@ -136,6 +136,9 @@ li {
   padding-bottom: 1%;
 }
 
+ul {
+    list-style: none;
+}
 
 #mail {
   color: grey;
